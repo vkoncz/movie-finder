@@ -6,10 +6,15 @@
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.5.0",
     "@testing-library/user-event": "^7.2.1",
+    "@types/eslint": "^6.8.1",
     "@types/jest": "^24.9.1",
     "@types/node": "^12.12.64",
+    "@types/prettier": "^2.1.1",
     "@types/react": "^16.9.51",
     "@types/react-dom": "^16.9.8",
+    "eslint-config-prettier": "^6.12.0",
+    "eslint-plugin-prettier": "^3.1.4",
+    "prettier": "^2.1.2",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "react-scripts": "3.4.3",
@@ -19,10 +24,8 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
-  },
-  "eslintConfig": {
-    "extends": "react-app"
+    "lint": "tsc --noEmit && eslint . --ext .js,.jsx,.ts,.tsx",
+    "lint:fix": "tsc --noEmit && eslint . --ext .js,.jsx,.ts,.tsx --fix"
   },
   "browserslist": {
     "production": [
