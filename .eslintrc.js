@@ -5,7 +5,7 @@ const prettierConfig = {
   endOfLine: 'lf',
   arrowParens: 'avoid',
   trailingComma: 'all',
-  printWidth: 120,
+  printWidth: 100,
   singleQuote: true,
 };
 
