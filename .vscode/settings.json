@@ -1,0 +1,10 @@
+{
+    "files.eol": "\n",
+    "editor.defaultFormatter": "dbaeumer.vscode-eslint",
+    "eslint.format.enable": true,
+    "eslint.codeActionsOnSave.mode": "all",
+    "eslint.validate": [
+        "typescript",
+        "typescriptreact"
+    ]
+}
