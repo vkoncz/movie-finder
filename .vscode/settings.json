@@ -6,5 +6,12 @@
     "eslint.validate": [
         "typescript",
         "typescriptreact"
-    ]
+    ],
+    // override user specific formaters
+    "[typescriptreact]": {
+        "editor.defaultFormatter": "dbaeumer.vscode-eslint"
+    },
+    "[typescript]": {
+        "editor.defaultFormatter": "dbaeumer.vscode-eslint"
+    }
 }
