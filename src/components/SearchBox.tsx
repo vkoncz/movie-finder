@@ -1,34 +1,45 @@
 import React, { useState } from 'react';
-import { IonButton, IonCol, IonRow, IonGrid, IonIcon, IonSearchbar, IonToast } from '@ionic/react';
+import {
+  IonButton,
+  IonCol,
+  IonRow,
+  IonGrid,
+  IonIcon,
+  IonSearchbar,
+  IonToast,
+  IonLoading,
+} from '@ionic/react';
 import { search, videocam } from 'ionicons/icons';
 import './SearchBox.css';
 import { Details } from '../models/MovieDetails';
 import { graphSearchClient } from '../data/fetch/graphSearchClient';
 
 interface Props {
-  resultChange: (isLoading: boolean, results?: Details[]) => void;
+  resultChange: (results?: Details[]) => void;
 }
 
 export const SearchBox: React.FC<Props> = ({ resultChange }) => {
   const [searchTerm, setSearchTerm] = useState('');
   const [showError, setShowError] = useState(false);
+  const [isLoading, setIsLoading] = useState(false);
 
   const fetchData = () => {
-    resultChange(true);
+    setIsLoading(true);
     graphSearchClient(searchTerm)
       .then(result => {
-        resultChange(false, result);
+        resultChange(result);
+        setIsLoading(false);
       })
       .catch(error => {
         console.log('Connection error:', error);
         setShowError(true);
-        resultChange(false);
+        setIsLoading(false);
       });
   };
 
   return (
     <>
-      <IonGrid class="ion-center">
+      <IonGrid class="ion-center search-container">
         <IonRow class="ion-align-items-center">
           <IonCol class="ion-no-padding">
             <IonSearchbar
@@ -43,12 +54,14 @@ export const SearchBox: React.FC<Props> = ({ resultChange }) => {
             />
           </IonCol>
           <IonCol size="auto" class="ion-no-padding ion-align-self-center">
-            <IonButton onClick={fetchData}>
+            <IonButton onClick={fetchData} class="search-button">
               <IonIcon icon={search} />
             </IonButton>
           </IonCol>
         </IonRow>
       </IonGrid>
+
+      <IonLoading isOpen={isLoading} message="Searching movies..." />
 
       <IonToast
         isOpen={showError}

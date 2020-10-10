@@ -3,7 +3,7 @@ export interface MovieDetails {
     movies: {
       search: {
         edges: {
-          node: {
+          node?: {
             details: Details;
           };
         }[];

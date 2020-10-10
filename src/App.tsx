@@ -1,6 +1,8 @@
+import { IonApp, IonContent } from '@ionic/react';
 import React, { useState } from 'react';
 import './App.css';
 import { SearchBox } from './components/SearchBox';
+import { SearchResults } from './components/SearchResults';
 import { TitleBar } from './components/TitleBar';
 import { Details } from './models/MovieDetails';
 
@@ -8,16 +10,16 @@ import { Details } from './models/MovieDetails';
 // https://github.com/ionic-team/ionic-framework/issues/20972
 
 function App() {
-  const [searchResult, setSearchResult] = useState({
-    isLoading: false,
-    results: undefined as Details[] | undefined,
-  });
+  const [searchResult, setSearchResult] = useState<Details[] | undefined>();
 
   return (
-    <>
-      <TitleBar />
-      <SearchBox resultChange={(isLoading, results) => setSearchResult({ isLoading, results })} />
-    </>
+    <IonApp>
+      <IonContent>
+        <TitleBar />
+        <SearchBox resultChange={setSearchResult} />
+        <SearchResults results={searchResult} />
+      </IonContent>
+    </IonApp>
   );
 }
 

@@ -31,5 +31,9 @@ export async function graphSearchClient(searchTerm: string): Promise<Details[]> 
 
   const movieDetails: MovieDetails = await response.json();
 
-  return movieDetails.data.movies.search.edges.map(edge => edge.node.details);
+  return movieDetails.data
+    ? movieDetails.data.movies.search.edges
+        .filter(edge => edge.node)
+        .map(edge => edge.node!.details)
+    : [];
 }
