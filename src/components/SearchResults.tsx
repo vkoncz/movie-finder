@@ -1,5 +1,4 @@
 import { IonCol, IonGrid, IonModal, IonRow, IonText } from '@ionic/react';
-import { title } from 'process';
 import React, { useState } from 'react';
 import { Details } from '../models/MovieDetails';
 import { MovieWikiModal } from './MovieWikiModal';
