@@ -1,19 +1,9 @@
-import {
-  IonCard,
-  IonCardContent,
-  IonCardHeader,
-  IonCardTitle,
-  IonCol,
-  IonGrid,
-  IonIcon,
-  IonItem,
-  IonLabel,
-  IonRow,
-  IonText,
-} from '@ionic/react';
-import React from 'react';
+import { IonCol, IonGrid, IonModal, IonRow, IonText } from '@ionic/react';
+import { title } from 'process';
+import React, { useState } from 'react';
 import { Details } from '../models/MovieDetails';
-import { star, pricetag } from 'ionicons/icons';
+import { MovieWikiModal } from './MovieWikiModal';
+import { SearchResultCard } from './SearchResultCard';
 
 interface Props {
   results?: Details[];
@@ -21,34 +11,33 @@ interface Props {
 
 export const SearchResults: React.FC<Props> = ({ results }) => {
   const message = !results || results?.length ? '' : 'No results found';
+  const [selectedTitle, setSelectedTitle] = useState('');
+  const [modalVisible, setModalVisible] = useState(false);
 
   return (
-    <IonGrid>
-      <IonRow>
-        {results
-          ? results.map(result => (
-              <IonCol sizeXl="3" sizeLg="4" sizeMd="6" size="12">
-                <IonCard>
-                  <IonCardHeader color="medium">
-                    <IonCardTitle>{result.title}</IonCardTitle>
-                  </IonCardHeader>
+    <>
+      <IonGrid>
+        <IonRow>
+          {results
+            ? results.map(result => (
+                <IonCol sizeXl="3" sizeLg="4" sizeMd="6" size="12">
+                  <SearchResultCard
+                    details={result}
+                    onMovieClick={title => {
+                      setModalVisible(true);
+                      setSelectedTitle(title);
+                    }}
+                  />
+                </IonCol>
+              ))
+            : ''}
+          <IonText>{message}</IonText>
+        </IonRow>
+      </IonGrid>
 
-                  <IonCardContent>
-                    <IonItem lines="none">
-                      <IonIcon icon={star} slot="start" size="small"></IonIcon>
-                      <IonLabel>{result.rating}</IonLabel>
-                    </IonItem>
-                    <IonItem lines="none">
-                      <IonIcon icon={pricetag} slot="start" size="small"></IonIcon>
-                      <IonLabel>{result.genres.map(genre => genre.name).join(', ')}</IonLabel>
-                    </IonItem>
-                  </IonCardContent>
-                </IonCard>
-              </IonCol>
-            ))
-          : ''}
-        <IonText>{message}</IonText>
-      </IonRow>
-    </IonGrid>
+      <IonModal isOpen={modalVisible} onDidDismiss={() => setModalVisible(false)}>
+        <MovieWikiModal movieTitle={selectedTitle} />
+      </IonModal>
+    </>
   );
 };
