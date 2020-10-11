@@ -18,4 +18,7 @@ export interface Details {
   }[];
   rating: number;
   title: string;
+  externalIds: {
+    imdb: string;
+  };
 }

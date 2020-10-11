@@ -10,10 +10,11 @@ import {
 import React from 'react';
 import { Details } from '../models/MovieDetails';
 import { star, pricetag } from 'ionicons/icons';
+import { MovieInfo } from '../models/MovieInfo';
 
 interface Props {
   details: Details;
-  onMovieClick: (title: string) => void;
+  onMovieClick: (movieInfo: MovieInfo) => void;
 }
 
 export const SearchResultCard: React.FC<Props> = ({ details, onMovieClick }) => {
@@ -21,7 +22,7 @@ export const SearchResultCard: React.FC<Props> = ({ details, onMovieClick }) => 
     <IonCard
       button={true}
       onClick={() => {
-        onMovieClick(details.title);
+        onMovieClick({ title: details.title, imdb: details.externalIds.imdb });
       }}
     >
       <IonCardHeader color="medium">

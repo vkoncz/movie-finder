@@ -1,6 +1,7 @@
 import { IonCol, IonGrid, IonModal, IonRow, IonText } from '@ionic/react';
 import React, { useState } from 'react';
 import { Details } from '../models/MovieDetails';
+import { MovieInfo } from '../models/MovieInfo';
 import { MovieWikiModal } from './MovieWikiModal';
 import { SearchResultCard } from './SearchResultCard';
 
@@ -10,7 +11,7 @@ interface Props {
 
 export const SearchResults: React.FC<Props> = ({ results }) => {
   const message = !results || results?.length ? '' : 'No results found';
-  const [selectedTitle, setSelectedTitle] = useState('');
+  const [selectedMovieInfo, setSelectedMovieInfo] = useState<MovieInfo>({ imdb: '', title: '' });
   const [modalVisible, setModalVisible] = useState(false);
 
   return (
@@ -24,7 +25,7 @@ export const SearchResults: React.FC<Props> = ({ results }) => {
                     details={result}
                     onMovieClick={title => {
                       setModalVisible(true);
-                      setSelectedTitle(title);
+                      setSelectedMovieInfo(title);
                     }}
                   />
                 </IonCol>
@@ -35,7 +36,7 @@ export const SearchResults: React.FC<Props> = ({ results }) => {
       </IonGrid>
 
       <IonModal isOpen={modalVisible} onDidDismiss={() => setModalVisible(false)}>
-        <MovieWikiModal movieTitle={selectedTitle} />
+        <MovieWikiModal movieInfo={selectedMovieInfo} modalClose={() => setModalVisible(false)} />
       </IonModal>
     </>
   );

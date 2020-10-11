@@ -13,6 +13,9 @@ export async function graphSearchClient(searchTerm: string): Promise<Details[]> 
                 genres {
                   name
                 }
+                externalIds {
+                  imdb
+                }
               }
             }
           }
