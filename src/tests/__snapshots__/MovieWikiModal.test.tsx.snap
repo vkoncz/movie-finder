@@ -1,0 +1,56 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should match to MovieWikiModal snapshots 1`] = `
+<DocumentFragment>
+  <ion-toolbar
+    color="medium"
+  >
+    <ion-title>
+      The Lord of the Rings: The Return of the King
+    </ion-title>
+  </ion-toolbar>
+  <ion-content>
+    <p
+      class="ion-padding-start ion-padding-end"
+    >
+      <ion-skeleton-text
+        style="width: 60%;"
+      />
+      <ion-skeleton-text />
+      <ion-skeleton-text
+        style="width: 90%;"
+      />
+      <ion-skeleton-text
+        style="width: 70%;"
+      />
+    </p>
+    <ion-row>
+      <ion-button
+        color="light"
+        href="https://www.imdb.com/title/tt0167260"
+        target="_blank"
+      >
+        IMDB
+        <ion-icon
+          icon="data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' class='ionicon' viewBox='0 0 512 512'><title>Open</title><path d='M384 224v184a40 40 0 01-40 40H104a40 40 0 01-40-40V168a40 40 0 0140-40h167.48M336 64h112v112M224 288L440 72' stroke-linecap='round' stroke-linejoin='round' class='ionicon-fill-none ionicon-stroke-width'/></svg>"
+        />
+      </ion-button>
+    </ion-row>
+    <ion-row>
+      <ion-col
+        class="ion-text-center"
+      >
+        <ion-button
+          class="ion-align-self-center"
+          color="warning"
+          shape="round"
+        >
+          <ion-icon
+            icon="data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' class='ionicon' viewBox='0 0 512 512'><title>Chevron Back</title><path stroke-linecap='round' stroke-linejoin='round' stroke-width='48' d='M328 112L184 256l144 144' class='ionicon-fill-none'/></svg>"
+          />
+        </ion-button>
+      </ion-col>
+    </ion-row>
+  </ion-content>
+</DocumentFragment>
+`;

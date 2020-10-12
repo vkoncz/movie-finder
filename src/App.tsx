@@ -1,25 +1,25 @@
-import React from 'react';
-import logo from './logo.svg';
+import { IonApp, IonContent } from '@ionic/react';
+import React, { useState } from 'react';
 import './App.css';
+import { SearchBox } from './components/SearchBox';
+import { SearchResults } from './components/SearchResults';
+import { TitleBar } from './components/TitleBar';
+import { Details } from './models/MovieDetails';
+
+// index.js:1 Warning: findDOMNode is deprecated in StrictMode.
+// https://github.com/ionic-team/ionic-framework/issues/20972
 
 function App() {
+  const [searchResult, setSearchResult] = useState<Details[] | undefined>();
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <IonApp>
+      <IonContent>
+        <TitleBar />
+        <SearchBox resultChange={setSearchResult} />
+        <SearchResults results={searchResult} />
+      </IonContent>
+    </IonApp>
   );
 }
 

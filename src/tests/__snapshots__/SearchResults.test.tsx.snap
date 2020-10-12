@@ -1,0 +1,861 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should match to SearchResults snapshots 1`] = `
+<DocumentFragment>
+  <ion-grid>
+    <ion-row>
+      <ion-text />
+    </ion-row>
+  </ion-grid>
+</DocumentFragment>
+`;
+
+exports[`should match to SearchResults snapshots 2`] = `
+<DocumentFragment>
+  <ion-grid>
+    <ion-row>
+      <ion-col
+        size="12"
+        size-lg="4"
+        size-md="6"
+        size-xl="3"
+      >
+        <ion-card>
+          <ion-card-header
+            color="medium"
+          >
+            <ion-card-title>
+              Lord of War
+            </ion-card-title>
+          </ion-card-header>
+          <ion-card-content>
+            <ion-item
+              lines="none"
+            >
+              <ion-icon
+                icon="data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' class='ionicon' viewBox='0 0 512 512'><title>Star</title><path d='M394 480a16 16 0 01-9.39-3L256 383.76 127.39 477a16 16 0 01-24.55-18.08L153 310.35 23 221.2a16 16 0 019-29.2h160.38l48.4-148.95a16 16 0 0130.44 0l48.4 149H480a16 16 0 019.05 29.2L359 310.35l50.13 148.53A16 16 0 01394 480z'/></svg>"
+                size="small"
+                slot="start"
+              />
+              <ion-label>
+                7.2
+              </ion-label>
+            </ion-item>
+            <ion-item
+              lines="none"
+            >
+              <ion-icon
+                icon="data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' class='ionicon' viewBox='0 0 512 512'><title>Pricetag</title><path d='M467 45.2A44.45 44.45 0 00435.29 32H312.36a30.63 30.63 0 00-21.52 8.89L45.09 286.59a44.82 44.82 0 000 63.32l117 117a44.83 44.83 0 0063.34 0l245.65-245.6A30.6 30.6 0 00480 199.8v-123a44.24 44.24 0 00-13-31.6zM384 160a32 32 0 1132-32 32 32 0 01-32 32z'/></svg>"
+                size="small"
+                slot="start"
+              />
+              <ion-label>
+                Crime, Drama, Thriller
+              </ion-label>
+            </ion-item>
+          </ion-card-content>
+        </ion-card>
+      </ion-col>
+      <ion-col
+        size="12"
+        size-lg="4"
+        size-md="6"
+        size-xl="3"
+      >
+        <ion-card>
+          <ion-card-header
+            color="medium"
+          >
+            <ion-card-title>
+              Lord of Illusions
+            </ion-card-title>
+          </ion-card-header>
+          <ion-card-content>
+            <ion-item
+              lines="none"
+            >
+              <ion-icon
+                icon="data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' class='ionicon' viewBox='0 0 512 512'><title>Star</title><path d='M394 480a16 16 0 01-9.39-3L256 383.76 127.39 477a16 16 0 01-24.55-18.08L153 310.35 23 221.2a16 16 0 019-29.2h160.38l48.4-148.95a16 16 0 0130.44 0l48.4 149H480a16 16 0 019.05 29.2L359 310.35l50.13 148.53A16 16 0 01394 480z'/></svg>"
+                size="small"
+                slot="start"
+              />
+              <ion-label>
+                6
+              </ion-label>
+            </ion-item>
+            <ion-item
+              lines="none"
+            >
+              <ion-icon
+                icon="data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' class='ionicon' viewBox='0 0 512 512'><title>Pricetag</title><path d='M467 45.2A44.45 44.45 0 00435.29 32H312.36a30.63 30.63 0 00-21.52 8.89L45.09 286.59a44.82 44.82 0 000 63.32l117 117a44.83 44.83 0 0063.34 0l245.65-245.6A30.6 30.6 0 00480 199.8v-123a44.24 44.24 0 00-13-31.6zM384 160a32 32 0 1132-32 32 32 0 01-32 32z'/></svg>"
+                size="small"
+                slot="start"
+              />
+              <ion-label>
+                Horror, Fantasy
+              </ion-label>
+            </ion-item>
+          </ion-card-content>
+        </ion-card>
+      </ion-col>
+      <ion-col
+        size="12"
+        size-lg="4"
+        size-md="6"
+        size-xl="3"
+      >
+        <ion-card>
+          <ion-card-header
+            color="medium"
+          >
+            <ion-card-title>
+              The Lord of the Rings: The Two Towers
+            </ion-card-title>
+          </ion-card-header>
+          <ion-card-content>
+            <ion-item
+              lines="none"
+            >
+              <ion-icon
+                icon="data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' class='ionicon' viewBox='0 0 512 512'><title>Star</title><path d='M394 480a16 16 0 01-9.39-3L256 383.76 127.39 477a16 16 0 01-24.55-18.08L153 310.35 23 221.2a16 16 0 019-29.2h160.38l48.4-148.95a16 16 0 0130.44 0l48.4 149H480a16 16 0 019.05 29.2L359 310.35l50.13 148.53A16 16 0 01394 480z'/></svg>"
+                size="small"
+                slot="start"
+              />
+              <ion-label>
+                8.3
+              </ion-label>
+            </ion-item>
+            <ion-item
+              lines="none"
+            >
+              <ion-icon
+                icon="data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' class='ionicon' viewBox='0 0 512 512'><title>Pricetag</title><path d='M467 45.2A44.45 44.45 0 00435.29 32H312.36a30.63 30.63 0 00-21.52 8.89L45.09 286.59a44.82 44.82 0 000 63.32l117 117a44.83 44.83 0 0063.34 0l245.65-245.6A30.6 30.6 0 00480 199.8v-123a44.24 44.24 0 00-13-31.6zM384 160a32 32 0 1132-32 32 32 0 01-32 32z'/></svg>"
+                size="small"
+                slot="start"
+              />
+              <ion-label>
+                Adventure, Fantasy, Action
+              </ion-label>
+            </ion-item>
+          </ion-card-content>
+        </ion-card>
+      </ion-col>
+      <ion-col
+        size="12"
+        size-lg="4"
+        size-md="6"
+        size-xl="3"
+      >
+        <ion-card>
+          <ion-card-header
+            color="medium"
+          >
+            <ion-card-title>
+              Little Lord Fauntleroy
+            </ion-card-title>
+          </ion-card-header>
+          <ion-card-content>
+            <ion-item
+              lines="none"
+            >
+              <ion-icon
+                icon="data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' class='ionicon' viewBox='0 0 512 512'><title>Star</title><path d='M394 480a16 16 0 01-9.39-3L256 383.76 127.39 477a16 16 0 01-24.55-18.08L153 310.35 23 221.2a16 16 0 019-29.2h160.38l48.4-148.95a16 16 0 0130.44 0l48.4 149H480a16 16 0 019.05 29.2L359 310.35l50.13 148.53A16 16 0 01394 480z'/></svg>"
+                size="small"
+                slot="start"
+              />
+              <ion-label>
+                7.3
+              </ion-label>
+            </ion-item>
+            <ion-item
+              lines="none"
+            >
+              <ion-icon
+                icon="data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' class='ionicon' viewBox='0 0 512 512'><title>Pricetag</title><path d='M467 45.2A44.45 44.45 0 00435.29 32H312.36a30.63 30.63 0 00-21.52 8.89L45.09 286.59a44.82 44.82 0 000 63.32l117 117a44.83 44.83 0 0063.34 0l245.65-245.6A30.6 30.6 0 00480 199.8v-123a44.24 44.24 0 00-13-31.6zM384 160a32 32 0 1132-32 32 32 0 01-32 32z'/></svg>"
+                size="small"
+                slot="start"
+              />
+              <ion-label>
+                TV Movie, Family, Drama
+              </ion-label>
+            </ion-item>
+          </ion-card-content>
+        </ion-card>
+      </ion-col>
+      <ion-col
+        size="12"
+        size-lg="4"
+        size-md="6"
+        size-xl="3"
+      >
+        <ion-card>
+          <ion-card-header
+            color="medium"
+          >
+            <ion-card-title>
+              Lord of the Flies
+            </ion-card-title>
+          </ion-card-header>
+          <ion-card-content>
+            <ion-item
+              lines="none"
+            >
+              <ion-icon
+                icon="data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' class='ionicon' viewBox='0 0 512 512'><title>Star</title><path d='M394 480a16 16 0 01-9.39-3L256 383.76 127.39 477a16 16 0 01-24.55-18.08L153 310.35 23 221.2a16 16 0 019-29.2h160.38l48.4-148.95a16 16 0 0130.44 0l48.4 149H480a16 16 0 019.05 29.2L359 310.35l50.13 148.53A16 16 0 01394 480z'/></svg>"
+                size="small"
+                slot="start"
+              />
+              <ion-label>
+                6.4
+              </ion-label>
+            </ion-item>
+            <ion-item
+              lines="none"
+            >
+              <ion-icon
+                icon="data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' class='ionicon' viewBox='0 0 512 512'><title>Pricetag</title><path d='M467 45.2A44.45 44.45 0 00435.29 32H312.36a30.63 30.63 0 00-21.52 8.89L45.09 286.59a44.82 44.82 0 000 63.32l117 117a44.83 44.83 0 0063.34 0l245.65-245.6A30.6 30.6 0 00480 199.8v-123a44.24 44.24 0 00-13-31.6zM384 160a32 32 0 1132-32 32 32 0 01-32 32z'/></svg>"
+                size="small"
+                slot="start"
+              />
+              <ion-label>
+                Adventure, Drama, Thriller
+              </ion-label>
+            </ion-item>
+          </ion-card-content>
+        </ion-card>
+      </ion-col>
+      <ion-col
+        size="12"
+        size-lg="4"
+        size-md="6"
+        size-xl="3"
+      >
+        <ion-card>
+          <ion-card-header
+            color="medium"
+          >
+            <ion-card-title>
+              The Lord of the Rings
+            </ion-card-title>
+          </ion-card-header>
+          <ion-card-content>
+            <ion-item
+              lines="none"
+            >
+              <ion-icon
+                icon="data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' class='ionicon' viewBox='0 0 512 512'><title>Star</title><path d='M394 480a16 16 0 01-9.39-3L256 383.76 127.39 477a16 16 0 01-24.55-18.08L153 310.35 23 221.2a16 16 0 019-29.2h160.38l48.4-148.95a16 16 0 0130.44 0l48.4 149H480a16 16 0 019.05 29.2L359 310.35l50.13 148.53A16 16 0 01394 480z'/></svg>"
+                size="small"
+                slot="start"
+              />
+              <ion-label>
+                6.5
+              </ion-label>
+            </ion-item>
+            <ion-item
+              lines="none"
+            >
+              <ion-icon
+                icon="data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' class='ionicon' viewBox='0 0 512 512'><title>Pricetag</title><path d='M467 45.2A44.45 44.45 0 00435.29 32H312.36a30.63 30.63 0 00-21.52 8.89L45.09 286.59a44.82 44.82 0 000 63.32l117 117a44.83 44.83 0 0063.34 0l245.65-245.6A30.6 30.6 0 00480 199.8v-123a44.24 44.24 0 00-13-31.6zM384 160a32 32 0 1132-32 32 32 0 01-32 32z'/></svg>"
+                size="small"
+                slot="start"
+              />
+              <ion-label>
+                Adventure, Animation, Fantasy
+              </ion-label>
+            </ion-item>
+          </ion-card-content>
+        </ion-card>
+      </ion-col>
+      <ion-col
+        size="12"
+        size-lg="4"
+        size-md="6"
+        size-xl="3"
+      >
+        <ion-card>
+          <ion-card-header
+            color="medium"
+          >
+            <ion-card-title>
+              Something the Lord Made
+            </ion-card-title>
+          </ion-card-header>
+          <ion-card-content>
+            <ion-item
+              lines="none"
+            >
+              <ion-icon
+                icon="data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' class='ionicon' viewBox='0 0 512 512'><title>Star</title><path d='M394 480a16 16 0 01-9.39-3L256 383.76 127.39 477a16 16 0 01-24.55-18.08L153 310.35 23 221.2a16 16 0 019-29.2h160.38l48.4-148.95a16 16 0 0130.44 0l48.4 149H480a16 16 0 019.05 29.2L359 310.35l50.13 148.53A16 16 0 01394 480z'/></svg>"
+                size="small"
+                slot="start"
+              />
+              <ion-label>
+                7.6
+              </ion-label>
+            </ion-item>
+            <ion-item
+              lines="none"
+            >
+              <ion-icon
+                icon="data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' class='ionicon' viewBox='0 0 512 512'><title>Pricetag</title><path d='M467 45.2A44.45 44.45 0 00435.29 32H312.36a30.63 30.63 0 00-21.52 8.89L45.09 286.59a44.82 44.82 0 000 63.32l117 117a44.83 44.83 0 0063.34 0l245.65-245.6A30.6 30.6 0 00480 199.8v-123a44.24 44.24 0 00-13-31.6zM384 160a32 32 0 1132-32 32 32 0 01-32 32z'/></svg>"
+                size="small"
+                slot="start"
+              />
+              <ion-label>
+                TV Movie, Drama
+              </ion-label>
+            </ion-item>
+          </ion-card-content>
+        </ion-card>
+      </ion-col>
+      <ion-col
+        size="12"
+        size-lg="4"
+        size-md="6"
+        size-xl="3"
+      >
+        <ion-card>
+          <ion-card-header
+            color="medium"
+          >
+            <ion-card-title>
+              The Ghost of Lord Farquaad
+            </ion-card-title>
+          </ion-card-header>
+          <ion-card-content>
+            <ion-item
+              lines="none"
+            >
+              <ion-icon
+                icon="data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' class='ionicon' viewBox='0 0 512 512'><title>Star</title><path d='M394 480a16 16 0 01-9.39-3L256 383.76 127.39 477a16 16 0 01-24.55-18.08L153 310.35 23 221.2a16 16 0 019-29.2h160.38l48.4-148.95a16 16 0 0130.44 0l48.4 149H480a16 16 0 019.05 29.2L359 310.35l50.13 148.53A16 16 0 01394 480z'/></svg>"
+                size="small"
+                slot="start"
+              />
+              <ion-label>
+                5.7
+              </ion-label>
+            </ion-item>
+            <ion-item
+              lines="none"
+            >
+              <ion-icon
+                icon="data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' class='ionicon' viewBox='0 0 512 512'><title>Pricetag</title><path d='M467 45.2A44.45 44.45 0 00435.29 32H312.36a30.63 30.63 0 00-21.52 8.89L45.09 286.59a44.82 44.82 0 000 63.32l117 117a44.83 44.83 0 0063.34 0l245.65-245.6A30.6 30.6 0 00480 199.8v-123a44.24 44.24 0 00-13-31.6zM384 160a32 32 0 1132-32 32 32 0 01-32 32z'/></svg>"
+                size="small"
+                slot="start"
+              />
+              <ion-label>
+                Fantasy, Animation, Comedy, Science Fiction, Family
+              </ion-label>
+            </ion-item>
+          </ion-card-content>
+        </ion-card>
+      </ion-col>
+      <ion-col
+        size="12"
+        size-lg="4"
+        size-md="6"
+        size-xl="3"
+      >
+        <ion-card>
+          <ion-card-header
+            color="medium"
+          >
+            <ion-card-title>
+              The Lord of the Rings: The Fellowship of the Ring
+            </ion-card-title>
+          </ion-card-header>
+          <ion-card-content>
+            <ion-item
+              lines="none"
+            >
+              <ion-icon
+                icon="data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' class='ionicon' viewBox='0 0 512 512'><title>Star</title><path d='M394 480a16 16 0 01-9.39-3L256 383.76 127.39 477a16 16 0 01-24.55-18.08L153 310.35 23 221.2a16 16 0 019-29.2h160.38l48.4-148.95a16 16 0 0130.44 0l48.4 149H480a16 16 0 019.05 29.2L359 310.35l50.13 148.53A16 16 0 01394 480z'/></svg>"
+                size="small"
+                slot="start"
+              />
+              <ion-label>
+                8.3
+              </ion-label>
+            </ion-item>
+            <ion-item
+              lines="none"
+            >
+              <ion-icon
+                icon="data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' class='ionicon' viewBox='0 0 512 512'><title>Pricetag</title><path d='M467 45.2A44.45 44.45 0 00435.29 32H312.36a30.63 30.63 0 00-21.52 8.89L45.09 286.59a44.82 44.82 0 000 63.32l117 117a44.83 44.83 0 0063.34 0l245.65-245.6A30.6 30.6 0 00480 199.8v-123a44.24 44.24 0 00-13-31.6zM384 160a32 32 0 1132-32 32 32 0 01-32 32z'/></svg>"
+                size="small"
+                slot="start"
+              />
+              <ion-label>
+                Adventure, Fantasy, Action
+              </ion-label>
+            </ion-item>
+          </ion-card-content>
+        </ion-card>
+      </ion-col>
+      <ion-col
+        size="12"
+        size-lg="4"
+        size-md="6"
+        size-xl="3"
+      >
+        <ion-card>
+          <ion-card-header
+            color="medium"
+          >
+            <ion-card-title>
+              The Lord of the Rings: The Return of the King
+            </ion-card-title>
+          </ion-card-header>
+          <ion-card-content>
+            <ion-item
+              lines="none"
+            >
+              <ion-icon
+                icon="data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' class='ionicon' viewBox='0 0 512 512'><title>Star</title><path d='M394 480a16 16 0 01-9.39-3L256 383.76 127.39 477a16 16 0 01-24.55-18.08L153 310.35 23 221.2a16 16 0 019-29.2h160.38l48.4-148.95a16 16 0 0130.44 0l48.4 149H480a16 16 0 019.05 29.2L359 310.35l50.13 148.53A16 16 0 01394 480z'/></svg>"
+                size="small"
+                slot="start"
+              />
+              <ion-label>
+                8.5
+              </ion-label>
+            </ion-item>
+            <ion-item
+              lines="none"
+            >
+              <ion-icon
+                icon="data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' class='ionicon' viewBox='0 0 512 512'><title>Pricetag</title><path d='M467 45.2A44.45 44.45 0 00435.29 32H312.36a30.63 30.63 0 00-21.52 8.89L45.09 286.59a44.82 44.82 0 000 63.32l117 117a44.83 44.83 0 0063.34 0l245.65-245.6A30.6 30.6 0 00480 199.8v-123a44.24 44.24 0 00-13-31.6zM384 160a32 32 0 1132-32 32 32 0 01-32 32z'/></svg>"
+                size="small"
+                slot="start"
+              />
+              <ion-label>
+                Adventure, Fantasy, Action
+              </ion-label>
+            </ion-item>
+          </ion-card-content>
+        </ion-card>
+      </ion-col>
+      <ion-col
+        size="12"
+        size-lg="4"
+        size-md="6"
+        size-xl="3"
+      >
+        <ion-card>
+          <ion-card-header
+            color="medium"
+          >
+            <ion-card-title>
+              Lord of the Flies
+            </ion-card-title>
+          </ion-card-header>
+          <ion-card-content>
+            <ion-item
+              lines="none"
+            >
+              <ion-icon
+                icon="data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' class='ionicon' viewBox='0 0 512 512'><title>Star</title><path d='M394 480a16 16 0 01-9.39-3L256 383.76 127.39 477a16 16 0 01-24.55-18.08L153 310.35 23 221.2a16 16 0 019-29.2h160.38l48.4-148.95a16 16 0 0130.44 0l48.4 149H480a16 16 0 019.05 29.2L359 310.35l50.13 148.53A16 16 0 01394 480z'/></svg>"
+                size="small"
+                slot="start"
+              />
+              <ion-label>
+                6.8
+              </ion-label>
+            </ion-item>
+            <ion-item
+              lines="none"
+            >
+              <ion-icon
+                icon="data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' class='ionicon' viewBox='0 0 512 512'><title>Pricetag</title><path d='M467 45.2A44.45 44.45 0 00435.29 32H312.36a30.63 30.63 0 00-21.52 8.89L45.09 286.59a44.82 44.82 0 000 63.32l117 117a44.83 44.83 0 0063.34 0l245.65-245.6A30.6 30.6 0 00480 199.8v-123a44.24 44.24 0 00-13-31.6zM384 160a32 32 0 1132-32 32 32 0 01-32 32z'/></svg>"
+                size="small"
+                slot="start"
+              />
+              <ion-label>
+                Thriller, Adventure, Drama
+              </ion-label>
+            </ion-item>
+          </ion-card-content>
+        </ion-card>
+      </ion-col>
+      <ion-col
+        size="12"
+        size-lg="4"
+        size-md="6"
+        size-xl="3"
+      >
+        <ion-card>
+          <ion-card-header
+            color="medium"
+          >
+            <ion-card-title>
+              Phantasm III: Lord of the Dead
+            </ion-card-title>
+          </ion-card-header>
+          <ion-card-content>
+            <ion-item
+              lines="none"
+            >
+              <ion-icon
+                icon="data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' class='ionicon' viewBox='0 0 512 512'><title>Star</title><path d='M394 480a16 16 0 01-9.39-3L256 383.76 127.39 477a16 16 0 01-24.55-18.08L153 310.35 23 221.2a16 16 0 019-29.2h160.38l48.4-148.95a16 16 0 0130.44 0l48.4 149H480a16 16 0 019.05 29.2L359 310.35l50.13 148.53A16 16 0 01394 480z'/></svg>"
+                size="small"
+                slot="start"
+              />
+              <ion-label>
+                5.8
+              </ion-label>
+            </ion-item>
+            <ion-item
+              lines="none"
+            >
+              <ion-icon
+                icon="data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' class='ionicon' viewBox='0 0 512 512'><title>Pricetag</title><path d='M467 45.2A44.45 44.45 0 00435.29 32H312.36a30.63 30.63 0 00-21.52 8.89L45.09 286.59a44.82 44.82 0 000 63.32l117 117a44.83 44.83 0 0063.34 0l245.65-245.6A30.6 30.6 0 00480 199.8v-123a44.24 44.24 0 00-13-31.6zM384 160a32 32 0 1132-32 32 32 0 01-32 32z'/></svg>"
+                size="small"
+                slot="start"
+              />
+              <ion-label>
+                Horror, Action, Science Fiction
+              </ion-label>
+            </ion-item>
+          </ion-card-content>
+        </ion-card>
+      </ion-col>
+      <ion-col
+        size="12"
+        size-lg="4"
+        size-md="6"
+        size-xl="3"
+      >
+        <ion-card>
+          <ion-card-header
+            color="medium"
+          >
+            <ion-card-title>
+              The Thief Lord
+            </ion-card-title>
+          </ion-card-header>
+          <ion-card-content>
+            <ion-item
+              lines="none"
+            >
+              <ion-icon
+                icon="data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' class='ionicon' viewBox='0 0 512 512'><title>Star</title><path d='M394 480a16 16 0 01-9.39-3L256 383.76 127.39 477a16 16 0 01-24.55-18.08L153 310.35 23 221.2a16 16 0 019-29.2h160.38l48.4-148.95a16 16 0 0130.44 0l48.4 149H480a16 16 0 019.05 29.2L359 310.35l50.13 148.53A16 16 0 01394 480z'/></svg>"
+                size="small"
+                slot="start"
+              />
+              <ion-label>
+                5.9
+              </ion-label>
+            </ion-item>
+            <ion-item
+              lines="none"
+            >
+              <ion-icon
+                icon="data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' class='ionicon' viewBox='0 0 512 512'><title>Pricetag</title><path d='M467 45.2A44.45 44.45 0 00435.29 32H312.36a30.63 30.63 0 00-21.52 8.89L45.09 286.59a44.82 44.82 0 000 63.32l117 117a44.83 44.83 0 0063.34 0l245.65-245.6A30.6 30.6 0 00480 199.8v-123a44.24 44.24 0 00-13-31.6zM384 160a32 32 0 1132-32 32 32 0 01-32 32z'/></svg>"
+                size="small"
+                slot="start"
+              />
+              <ion-label>
+                Adventure, Science Fiction
+              </ion-label>
+            </ion-item>
+          </ion-card-content>
+        </ion-card>
+      </ion-col>
+      <ion-col
+        size="12"
+        size-lg="4"
+        size-md="6"
+        size-xl="3"
+      >
+        <ion-card>
+          <ion-card-header
+            color="medium"
+          >
+            <ion-card-title>
+              The War Lord
+            </ion-card-title>
+          </ion-card-header>
+          <ion-card-content>
+            <ion-item
+              lines="none"
+            >
+              <ion-icon
+                icon="data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' class='ionicon' viewBox='0 0 512 512'><title>Star</title><path d='M394 480a16 16 0 01-9.39-3L256 383.76 127.39 477a16 16 0 01-24.55-18.08L153 310.35 23 221.2a16 16 0 019-29.2h160.38l48.4-148.95a16 16 0 0130.44 0l48.4 149H480a16 16 0 019.05 29.2L359 310.35l50.13 148.53A16 16 0 01394 480z'/></svg>"
+                size="small"
+                slot="start"
+              />
+              <ion-label>
+                6.1
+              </ion-label>
+            </ion-item>
+            <ion-item
+              lines="none"
+            >
+              <ion-icon
+                icon="data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' class='ionicon' viewBox='0 0 512 512'><title>Pricetag</title><path d='M467 45.2A44.45 44.45 0 00435.29 32H312.36a30.63 30.63 0 00-21.52 8.89L45.09 286.59a44.82 44.82 0 000 63.32l117 117a44.83 44.83 0 0063.34 0l245.65-245.6A30.6 30.6 0 00480 199.8v-123a44.24 44.24 0 00-13-31.6zM384 160a32 32 0 1132-32 32 32 0 01-32 32z'/></svg>"
+                size="small"
+                slot="start"
+              />
+              <ion-label>
+                History
+              </ion-label>
+            </ion-item>
+          </ion-card-content>
+        </ion-card>
+      </ion-col>
+      <ion-col
+        size="12"
+        size-lg="4"
+        size-md="6"
+        size-xl="3"
+      >
+        <ion-card>
+          <ion-card-header
+            color="medium"
+          >
+            <ion-card-title>
+              Lord Jim
+            </ion-card-title>
+          </ion-card-header>
+          <ion-card-content>
+            <ion-item
+              lines="none"
+            >
+              <ion-icon
+                icon="data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' class='ionicon' viewBox='0 0 512 512'><title>Star</title><path d='M394 480a16 16 0 01-9.39-3L256 383.76 127.39 477a16 16 0 01-24.55-18.08L153 310.35 23 221.2a16 16 0 019-29.2h160.38l48.4-148.95a16 16 0 0130.44 0l48.4 149H480a16 16 0 019.05 29.2L359 310.35l50.13 148.53A16 16 0 01394 480z'/></svg>"
+                size="small"
+                slot="start"
+              />
+              <ion-label>
+                6.8
+              </ion-label>
+            </ion-item>
+            <ion-item
+              lines="none"
+            >
+              <ion-icon
+                icon="data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' class='ionicon' viewBox='0 0 512 512'><title>Pricetag</title><path d='M467 45.2A44.45 44.45 0 00435.29 32H312.36a30.63 30.63 0 00-21.52 8.89L45.09 286.59a44.82 44.82 0 000 63.32l117 117a44.83 44.83 0 0063.34 0l245.65-245.6A30.6 30.6 0 00480 199.8v-123a44.24 44.24 0 00-13-31.6zM384 160a32 32 0 1132-32 32 32 0 01-32 32z'/></svg>"
+                size="small"
+                slot="start"
+              />
+              <ion-label>
+                Adventure
+              </ion-label>
+            </ion-item>
+          </ion-card-content>
+        </ion-card>
+      </ion-col>
+      <ion-col
+        size="12"
+        size-lg="4"
+        size-md="6"
+        size-xl="3"
+      >
+        <ion-card>
+          <ion-card-header
+            color="medium"
+          >
+            <ion-card-title>
+              Lord of Tears
+            </ion-card-title>
+          </ion-card-header>
+          <ion-card-content>
+            <ion-item
+              lines="none"
+            >
+              <ion-icon
+                icon="data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' class='ionicon' viewBox='0 0 512 512'><title>Star</title><path d='M394 480a16 16 0 01-9.39-3L256 383.76 127.39 477a16 16 0 01-24.55-18.08L153 310.35 23 221.2a16 16 0 019-29.2h160.38l48.4-148.95a16 16 0 0130.44 0l48.4 149H480a16 16 0 019.05 29.2L359 310.35l50.13 148.53A16 16 0 01394 480z'/></svg>"
+                size="small"
+                slot="start"
+              />
+              <ion-label>
+                5.3
+              </ion-label>
+            </ion-item>
+            <ion-item
+              lines="none"
+            >
+              <ion-icon
+                icon="data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' class='ionicon' viewBox='0 0 512 512'><title>Pricetag</title><path d='M467 45.2A44.45 44.45 0 00435.29 32H312.36a30.63 30.63 0 00-21.52 8.89L45.09 286.59a44.82 44.82 0 000 63.32l117 117a44.83 44.83 0 0063.34 0l245.65-245.6A30.6 30.6 0 00480 199.8v-123a44.24 44.24 0 00-13-31.6zM384 160a32 32 0 1132-32 32 32 0 01-32 32z'/></svg>"
+                size="small"
+                slot="start"
+              />
+              <ion-label>
+                Drama, Horror
+              </ion-label>
+            </ion-item>
+          </ion-card-content>
+        </ion-card>
+      </ion-col>
+      <ion-col
+        size="12"
+        size-lg="4"
+        size-md="6"
+        size-xl="3"
+      >
+        <ion-card>
+          <ion-card-header
+            color="medium"
+          >
+            <ion-card-title>
+              Edges of the Lord
+            </ion-card-title>
+          </ion-card-header>
+          <ion-card-content>
+            <ion-item
+              lines="none"
+            >
+              <ion-icon
+                icon="data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' class='ionicon' viewBox='0 0 512 512'><title>Star</title><path d='M394 480a16 16 0 01-9.39-3L256 383.76 127.39 477a16 16 0 01-24.55-18.08L153 310.35 23 221.2a16 16 0 019-29.2h160.38l48.4-148.95a16 16 0 0130.44 0l48.4 149H480a16 16 0 019.05 29.2L359 310.35l50.13 148.53A16 16 0 01394 480z'/></svg>"
+                size="small"
+                slot="start"
+              />
+              <ion-label>
+                6.6
+              </ion-label>
+            </ion-item>
+            <ion-item
+              lines="none"
+            >
+              <ion-icon
+                icon="data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' class='ionicon' viewBox='0 0 512 512'><title>Pricetag</title><path d='M467 45.2A44.45 44.45 0 00435.29 32H312.36a30.63 30.63 0 00-21.52 8.89L45.09 286.59a44.82 44.82 0 000 63.32l117 117a44.83 44.83 0 0063.34 0l245.65-245.6A30.6 30.6 0 00480 199.8v-123a44.24 44.24 0 00-13-31.6zM384 160a32 32 0 1132-32 32 32 0 01-32 32z'/></svg>"
+                size="small"
+                slot="start"
+              />
+              <ion-label>
+                Comedy, Drama, Romance
+              </ion-label>
+            </ion-item>
+          </ion-card-content>
+        </ion-card>
+      </ion-col>
+      <ion-col
+        size="12"
+        size-lg="4"
+        size-md="6"
+        size-xl="3"
+      >
+        <ion-card>
+          <ion-card-header
+            color="medium"
+          >
+            <ion-card-title>
+              Little Lord Fauntleroy
+            </ion-card-title>
+          </ion-card-header>
+          <ion-card-content>
+            <ion-item
+              lines="none"
+            >
+              <ion-icon
+                icon="data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' class='ionicon' viewBox='0 0 512 512'><title>Star</title><path d='M394 480a16 16 0 01-9.39-3L256 383.76 127.39 477a16 16 0 01-24.55-18.08L153 310.35 23 221.2a16 16 0 019-29.2h160.38l48.4-148.95a16 16 0 0130.44 0l48.4 149H480a16 16 0 019.05 29.2L359 310.35l50.13 148.53A16 16 0 01394 480z'/></svg>"
+                size="small"
+                slot="start"
+              />
+              <ion-label>
+                6.7
+              </ion-label>
+            </ion-item>
+            <ion-item
+              lines="none"
+            >
+              <ion-icon
+                icon="data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' class='ionicon' viewBox='0 0 512 512'><title>Pricetag</title><path d='M467 45.2A44.45 44.45 0 00435.29 32H312.36a30.63 30.63 0 00-21.52 8.89L45.09 286.59a44.82 44.82 0 000 63.32l117 117a44.83 44.83 0 0063.34 0l245.65-245.6A30.6 30.6 0 00480 199.8v-123a44.24 44.24 0 00-13-31.6zM384 160a32 32 0 1132-32 32 32 0 01-32 32z'/></svg>"
+                size="small"
+                slot="start"
+              />
+              <ion-label>
+                Drama, Family
+              </ion-label>
+            </ion-item>
+          </ion-card-content>
+        </ion-card>
+      </ion-col>
+      <ion-col
+        size="12"
+        size-lg="4"
+        size-md="6"
+        size-xl="3"
+      >
+        <ion-card>
+          <ion-card-header
+            color="medium"
+          >
+            <ion-card-title>
+              Selma, Lord, Selma
+            </ion-card-title>
+          </ion-card-header>
+          <ion-card-content>
+            <ion-item
+              lines="none"
+            >
+              <ion-icon
+                icon="data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' class='ionicon' viewBox='0 0 512 512'><title>Star</title><path d='M394 480a16 16 0 01-9.39-3L256 383.76 127.39 477a16 16 0 01-24.55-18.08L153 310.35 23 221.2a16 16 0 019-29.2h160.38l48.4-148.95a16 16 0 0130.44 0l48.4 149H480a16 16 0 019.05 29.2L359 310.35l50.13 148.53A16 16 0 01394 480z'/></svg>"
+                size="small"
+                slot="start"
+              />
+              <ion-label>
+                8.5
+              </ion-label>
+            </ion-item>
+            <ion-item
+              lines="none"
+            >
+              <ion-icon
+                icon="data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' class='ionicon' viewBox='0 0 512 512'><title>Pricetag</title><path d='M467 45.2A44.45 44.45 0 00435.29 32H312.36a30.63 30.63 0 00-21.52 8.89L45.09 286.59a44.82 44.82 0 000 63.32l117 117a44.83 44.83 0 0063.34 0l245.65-245.6A30.6 30.6 0 00480 199.8v-123a44.24 44.24 0 00-13-31.6zM384 160a32 32 0 1132-32 32 32 0 01-32 32z'/></svg>"
+                size="small"
+                slot="start"
+              />
+              <ion-label>
+                Drama
+              </ion-label>
+            </ion-item>
+          </ion-card-content>
+        </ion-card>
+      </ion-col>
+      <ion-col
+        size="12"
+        size-lg="4"
+        size-md="6"
+        size-xl="3"
+      >
+        <ion-card>
+          <ion-card-header
+            color="medium"
+          >
+            <ion-card-title>
+              Red Riding: The Year of Our Lord 1974
+            </ion-card-title>
+          </ion-card-header>
+          <ion-card-content>
+            <ion-item
+              lines="none"
+            >
+              <ion-icon
+                icon="data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' class='ionicon' viewBox='0 0 512 512'><title>Star</title><path d='M394 480a16 16 0 01-9.39-3L256 383.76 127.39 477a16 16 0 01-24.55-18.08L153 310.35 23 221.2a16 16 0 019-29.2h160.38l48.4-148.95a16 16 0 0130.44 0l48.4 149H480a16 16 0 019.05 29.2L359 310.35l50.13 148.53A16 16 0 01394 480z'/></svg>"
+                size="small"
+                slot="start"
+              />
+              <ion-label>
+                6.7
+              </ion-label>
+            </ion-item>
+            <ion-item
+              lines="none"
+            >
+              <ion-icon
+                icon="data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' class='ionicon' viewBox='0 0 512 512'><title>Pricetag</title><path d='M467 45.2A44.45 44.45 0 00435.29 32H312.36a30.63 30.63 0 00-21.52 8.89L45.09 286.59a44.82 44.82 0 000 63.32l117 117a44.83 44.83 0 0063.34 0l245.65-245.6A30.6 30.6 0 00480 199.8v-123a44.24 44.24 0 00-13-31.6zM384 160a32 32 0 1132-32 32 32 0 01-32 32z'/></svg>"
+                size="small"
+                slot="start"
+              />
+              <ion-label>
+                Thriller, Mystery, Crime, Drama
+              </ion-label>
+            </ion-item>
+          </ion-card-content>
+        </ion-card>
+      </ion-col>
+      <ion-text />
+    </ion-row>
+  </ion-grid>
+</DocumentFragment>
+`;
