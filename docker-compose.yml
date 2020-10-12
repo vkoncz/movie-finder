@@ -1,0 +1,7 @@
+version: "3.8"
+services:
+  movie-finder:
+    image: vkoncz/movie-finder
+    build: ./
+    ports:
+      - "8080:80"
