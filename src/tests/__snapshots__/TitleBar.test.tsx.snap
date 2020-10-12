@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should match to TitleBar snapshots 1`] = `
+<DocumentFragment>
+  <ion-toolbar
+    color="primary"
+  >
+    <ion-title>
+      Movie Finder
+    </ion-title>
+  </ion-toolbar>
+</DocumentFragment>
+`;

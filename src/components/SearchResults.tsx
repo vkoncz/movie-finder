@@ -19,8 +19,8 @@ export const SearchResults: React.FC<Props> = ({ results }) => {
       <IonGrid>
         <IonRow>
           {results
-            ? results.map(result => (
-                <IonCol sizeXl="3" sizeLg="4" sizeMd="6" size="12">
+            ? results.map((result, key) => (
+                <IonCol key={key} sizeXl="3" sizeLg="4" sizeMd="6" size="12">
                   <SearchResultCard
                     details={result}
                     onMovieClick={title => {

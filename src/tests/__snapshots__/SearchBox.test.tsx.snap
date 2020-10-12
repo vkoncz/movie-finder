@@ -1,0 +1,36 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should match to SearchBox snapshots 1`] = `
+<DocumentFragment>
+  <ion-grid
+    class="ion-center search-container"
+  >
+    <ion-row
+      class="ion-align-items-center"
+    >
+      <ion-col
+        class="ion-no-padding"
+      >
+        <ion-searchbar
+          autocomplete="on"
+          placeholder="Search movies"
+          search-icon="data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' class='ionicon' viewBox='0 0 512 512'><title>Videocam</title><path d='M464 384.39a32 32 0 01-13-2.77 15.77 15.77 0 01-2.71-1.54l-82.71-58.22A32 32 0 01352 295.7v-79.4a32 32 0 0113.58-26.16l82.71-58.22a15.77 15.77 0 012.71-1.54 32 32 0 0145 29.24v192.76a32 32 0 01-32 32zM268 400H84a68.07 68.07 0 01-68-68V180a68.07 68.07 0 0168-68h184.48A67.6 67.6 0 01336 179.52V332a68.07 68.07 0 01-68 68z'/></svg>"
+          value=""
+        />
+      </ion-col>
+      <ion-col
+        class="ion-no-padding ion-align-self-center"
+        size="auto"
+      >
+        <ion-button
+          class="search-button"
+        >
+          <ion-icon
+            icon="data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' class='ionicon' viewBox='0 0 512 512'><title>Search</title><path d='M456.69 421.39L362.6 327.3a173.81 173.81 0 0034.84-104.58C397.44 126.38 319.06 48 222.72 48S48 126.38 48 222.72s78.38 174.72 174.72 174.72A173.81 173.81 0 00327.3 362.6l94.09 94.09a25 25 0 0035.3-35.3zM97.92 222.72a124.8 124.8 0 11124.8 124.8 124.95 124.95 0 01-124.8-124.8z'/></svg>"
+          />
+        </ion-button>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+</DocumentFragment>
+`;
